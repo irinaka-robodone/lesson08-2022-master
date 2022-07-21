@@ -33,7 +33,7 @@
     - 自分がリストアップした機能を１つずつ実装していこう。
     - リモートで開発する人は Grok Academy の「micro:bit 短期集中講座」の「１－１章：画像と文字を表示しよう」の "Happy micro:bit!" にコードを書いていこう。こうすると先生がチェックできる！  
     <b>ログイン手順</b>  
-        - ロボ団いりなか校の Google アカウントで Grok Academy にログイン(ログインする)  
+        - ロボ団いりなか校の Google アカウントで [Grok Academy](https://groklearning.com/) にログインする。
         ![Use Google を選んでログインする](img/login.png)
         - 伝えてもらったGoogle アカウントとパスワードでログインしよう。
     - ログインが完了して、「micro:bit 短期集中講座」の「１－１章：画像と文字を表示しよう」の "Happy micro:bit!" を開けたら、ひたすらコーディングです。

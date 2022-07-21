@@ -39,12 +39,15 @@
     - ログインが完了して、「micro:bit 短期集中講座」の「１－１章：画像と文字を表示しよう」の "Happy micro:bit!" を開けたら、ひたすらコーディングです。
     - 先生の例だと、まず実装することになるのは「ボタンAを押したらゲームスタートする機能」になるね。
     - 先生とみんなのソースコードは [https://www.github.com/irinaka-robodone/lesson08-2022-master](https://www.github.com/irinaka-robodone/lesson08-2022-master) に逐次アップロードされるので、行き詰まったら teacher ブランチを参考にしてみよう。
+    - [先生のコード(main.py)](https://github.com/irinaka-robodone/lesson08-2022-master/blob/teacher/main.py)
     - リモートで参加するみんなのコードも逐次、上の GitHub ページにアップロードされるよ。
     - コーディングはロボ団アプリのレッスンブックにある「micro:bit 文法集」を参照しながら行うこと。タブレットで「micro:bit 文法集」を開きながら、パソコンでコーディングすると良いよ。
 1. 書いたプログラムの保存と共有
     - コードを書く途中で適宜、保存をしておこう。"Submit"をする必要はないよ。
     - コードが更新されたのを先生が気づいたら、みんなのコードを GitHub のページにアップロードします！
     - みんなは教えてもらった Google アカウントで間違えずにログインして、保存を忘れずにコーディングをするだけ！
+
+## 最後に先生が少しだけ書いた例です
 
 ```python:main.py
 

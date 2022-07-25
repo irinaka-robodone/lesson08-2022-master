@@ -27,7 +27,8 @@
     - レッスンブック「レッスン８」の主な機能のページと以下のピンポンゲームのプレイ動画を参考に実装する機能を考えてリストアップする。
         - https://www.youtube.com/watch?v=BJ520s79cnM
         - https://www.youtube.com/watch?v=BDIrYfzlULE
-    - このとき、必ず紙などに書いてリストアップすること。
+    - このとき、必ず紙などに書いてリストアップすること。  
+    ![なにかに書いて要件定義しよう](img/study_wakaru_boy.png)
     - この作業はコードを書き始める前、最初に必ずやること。アプリやサービスを開発することになったとき開発者が最初にやることが、この「要件定義」「機能設計」です。
     - 先生が行った要件定義は上の「実装する機能」に書いているよ。
 1. コーディング
@@ -37,7 +38,8 @@
         - ロボ団いりなか校の Google アカウントで [Grok Academy](https://groklearning.com/) にログインする。
         ![Use Google を選んでログインする](img/login.png)
         - 伝えてもらったGoogle アカウントとパスワードでログインしよう。
-    - ログインが完了して、「micro:bit 短期集中講座」の「１－１章：画像と文字を表示しよう」の "Happy micro:bit!" を開けたら、ひたすらコーディングです。
+    - ログインが完了して、「micro:bit 短期集中講座」の「１－１章：画像と文字を表示しよう」の "Happy micro:bit!" を開けたら、ひたすらコーディングです。  
+    ![Happy micro:bit!](img/happy-microbit.png)
     - 先生の例だと、まず実装したのは「ボタンAを押したらゲームスタートする機能」でした。
     - 先生とみんなのソースコードは [https://www.github.com/irinaka-robodone/lesson08-2022-master](https://www.github.com/irinaka-robodone/lesson08-2022-master) に逐次アップロードされるので、行き詰まったら teacher ブランチを参考にしてみよう。
     - [先生のコード(main.py)](https://github.com/irinaka-robodone/lesson08-2022-master/blob/teacher/main.py)

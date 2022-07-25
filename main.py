@@ -27,16 +27,21 @@ for i in range(3):
     sleep(1000)
 
 start = running_time()
+start2 = running_time()
 while not IsGameOver:
-    time = running_time() - start
 
-    if time > 0 and time % 10000 == 0:
-        dt -= 10
+    time = running_time() - start
+    time2 = running_time() - start2
+
+    if time2 > 0 and 9990 < time2 < 10010:
+        dt -= 100
+        start2 = running_time()
 
     if dt < 100:
-        dt = 100
+        dt = 50
 
-    if time % dt == 0:
+    if time > 0 and (time % dt < 10 or dt - 10 < time % dt):
+        start = running_time()
         ball_pos[0] += speed[0]
         ball_pos[1] += speed[1]
 
@@ -53,11 +58,11 @@ while not IsGameOver:
             speed[1] = -1
 
         elif ball_pos[0] == bar_pos[0] and speed[0] < 0 and ball_pos[1] == 3:
-            speed[0] *= -1
+            speed[0] = -1
             speed[1] = -1
 
         elif ball_pos[0] == bar_pos[1] and speed[0] > 0 and ball_pos[1] == 3:
-            speed[0] *= -1
+            speed[0] = 1
             speed[1] = -1
 
         elif ball_pos[0] == bar_pos[1] and speed[0] < 0 and ball_pos[1] == 3:
@@ -92,9 +97,9 @@ while not IsGameOver:
         bar_pos[0] = 3
         bar_pos[1] = 4
 
-    # if running_time() % dt == 0:
-    #   ball_pos[0] += speed[0]
-    #   ball_pos[1] += speed[1]
+       # if running_time() % dt == 0:
+       #   ball_pos[0] += speed[0]
+       #   ball_pos[1] += speed[1]
 
     if ball_pos[1] == 4:
         IsGameOver = True

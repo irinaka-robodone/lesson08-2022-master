@@ -35,7 +35,7 @@ while not IsGameOver:
     time = running_time() - start
     time2 = running_time() - start2
 
-    if time2 > 0 and 9990 < time2 < 10010:
+    if time2 > 0 and 9995 < time2 < 10005:
         # およそ10秒間隔でボールの位置の変わる速さを大きくした (再描画の間隔 dt を短くする)
         dt -= 100
         start2 = running_time()
@@ -43,8 +43,15 @@ while not IsGameOver:
     if dt < 50:
         # 短すぎるとプレイできないので、小さくても間隔は 50 になるようにした
         dt = 50
-
-    if time > 0 and (time % dt < 10 or dt - 10 < time % dt):
+    
+    """
+    # todo
+    1. ボールの飛ぶ方向が３パターンしかなく予想しやすく、ハメ技で永遠にプレイできてしまうので跳ね返りの方向を一部ランダムにする。
+    1. 跳ね返り処理をより簡潔に書き直す。
+    1. 描画する時間間隔を指定した値の倍数じゃなくて指定時間経過後に書き直す。その方がより等間隔に実行される。
+    """
+        
+    if time > 0 and (time % dt < 5 or dt - 5 < time % dt):
         start = running_time()
         
         # ボールとバーが接触したときの跳ね返り処理

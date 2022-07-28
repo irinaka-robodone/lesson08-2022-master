@@ -42,7 +42,7 @@
     ![Happy micro:bit!](img/happy-microbit.png)
     - 先生の例だと、まず実装したのは「ボタンAを押したらゲームスタートする機能」でした。
     - 先生とみんなのソースコードは [https://www.github.com/irinaka-robodone/lesson08-2022-master](https://www.github.com/irinaka-robodone/lesson08-2022-master) に逐次アップロードされるので、行き詰まったら teacher ブランチを参考にしてみよう。
-    - [先生のコード(main.py)](https://github.com/irinaka-robodone/lesson08-2022-master/blob/teacher/main.py)
+    - [先生のコード(main.py)](https://github.com/irinaka-robodone/lesson08-2022-master/blob/teacher/chapter1/main.py)
     - リモートで参加するみんなのコードも逐次、上の GitHub ページにアップロードされるよ。
     - コーディングはロボ団アプリのレッスンブックにある「micro:bit 文法集」を参照しながら行うこと。タブレットで「micro:bit 文法集」を開きながら、パソコンでコーディングすると良いよ。
 1. 書いたプログラムの保存と共有

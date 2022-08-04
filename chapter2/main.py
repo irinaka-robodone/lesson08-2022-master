@@ -1,4 +1,4 @@
-from microbit import *
+;from microbit import *
 
 # 配列から線を描画
 def display_bar(bar_pos):
@@ -51,7 +51,7 @@ while not IsGameOver:
     1. 描画する時間間隔を指定した値の倍数じゃなくて指定時間経過後に書き直す。その方がより等間隔に実行される。
     """
         
-    if time > 0 and (time % dt < 5 or dt - 5 < time % dt):
+    if time > 0 and (time % dt < 10 or dt - 10 < time % dt):
         start = running_time()
         
         # ボールとバーが接触したときの跳ね返り処理

@@ -15,7 +15,7 @@ dt = 1000
 bar_pos = [2, 3]
 ball_pos = [3, 0]
 speed = [0, 1]
-IsGameOver = False
+IsGameOver = False  # ゲームオーバー判定用のフラグ
 score = 0
 
 # どれかのボタンを押すまでゲームを実行しないようにした
